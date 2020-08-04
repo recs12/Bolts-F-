@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Slimane\\Desktop\\It's here\\playground\\Bolts\\Bolts.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Slimane\\Desktop\\It's here\\playground\\Bolts\\Bolts.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Slimane\\Desktop\\It's here\\playground\\Bolts\\Bolts.fsproj",
+        "projectName": "Bolts",
+        "projectPath": "C:\\Users\\Slimane\\Desktop\\It's here\\playground\\Bolts\\Bolts.fsproj",
+        "packagesPath": "C:\\Users\\Slimane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Slimane\\Desktop\\It's here\\playground\\Bolts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Slimane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.1, )",
+              "generatePathProperty": true
+            },
+            "Interop.SolidEdge": {
+              "target": "Package",
+              "version": "[220.2.0, )",
+              "generatePathProperty": true
+            },
+            "SolidEdge.Community": {
+              "target": "Package",
+              "version": "[219.0.0, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[8.1.2, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
